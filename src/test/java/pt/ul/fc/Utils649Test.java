@@ -22,4 +22,16 @@ class Utils649Test {
         assertEquals(5 * 6, Utils649.scale(5));
         assertEquals(0, Utils649.scale(0));
     }
+
+    @Test
+    void shoutConvertsToUpperCase() {
+        assertEquals("HELLO", Utils649.shout("hello"));
+        assertEquals("ABC", Utils649.shout("aBc"));
+    }
+
+    @Test
+    void rectAreaMultipliesWidthByHeight() {
+        assertEquals(12, Utils649.rectArea(3, 4));
+        assertEquals(0, Utils649.rectArea(0, 5));
+    }
 }

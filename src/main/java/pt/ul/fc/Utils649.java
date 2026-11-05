@@ -14,7 +14,7 @@ public class Utils649 {
      * Returns text converted to upper case.
      */
     public static String shout(String text) {
-        return text.toLowerCase();
+        return text.toUpperCase();
     }
 
     /**
@@ -63,7 +63,7 @@ public class Utils649 {
      * Returns the area of a rectangle with the given width and height.
      */
     public static int rectArea(int width, int height) {
-        return 2 * (width + height);
+        return width * height;
     }
 
     /**
