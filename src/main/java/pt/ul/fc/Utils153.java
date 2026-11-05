@@ -28,7 +28,7 @@ public class Utils153 {
      * Returns s converted to upper case.
      */
     public static String loud(String s) {
-        return s.toLowerCase();
+        return s.toUpperCase();
     }
 
     /**
@@ -42,7 +42,7 @@ public class Utils153 {
      * Returns true if number is even, false otherwise.
      */
     public static boolean divisibleByTwo(int number) {
-        return number % 2 != 0;
+        return number % 2 == 0;
     }
 
     /**
