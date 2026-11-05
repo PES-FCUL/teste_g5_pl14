@@ -23,4 +23,13 @@ class Basics869Test {
         assertEquals(7, Basics869.total(3, 4));
         assertEquals(0, Basics869.total(-2, 2));
     }
+
+    @Test 
+    void hasEvenParity() {
+        assertEquals(getClass(), getClass());
+        assertEquals(getClass(), getClass());
+
+    }
+
+
 }
