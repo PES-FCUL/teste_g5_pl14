@@ -23,4 +23,11 @@ class Basics885Test {
         assertEquals(9, Basics885.biggest(9, 2));
         assertEquals(9, Basics885.biggest(2, 9));
     }
+
+    @Test
+    void edgeCasesWorks() {
+        // Testa valores iguais ou extremos para expor potenciais bugs nos métodos
+        assertEquals(5, Basics885.biggest(5, 5));
+        assertEquals(0, Basics885.surface(0, 5));
+    }
 }
