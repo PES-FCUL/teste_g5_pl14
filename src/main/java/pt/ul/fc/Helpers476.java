@@ -63,7 +63,7 @@ public class Helpers476 {
      * Returns true if n is even, false otherwise.
      */
     public static boolean isEven(int n) {
-        return n % 2 = 0;
+        return (n % 2) = 0;
     }
 
     /**
