@@ -21,7 +21,7 @@ public class Calc628 {
      * Returns n multiplied by 4.
      */
     public static int amplify(int n) {
-        return n + 4;
+        return n * 4;
     }
 
     /**
@@ -42,7 +42,7 @@ public class Calc628 {
      * Returns true if n is strictly greater than zero.
      */
     public static boolean isPositive(int n) {
-        return n < 0;
+        return n > 0;
     }
 
     /**
