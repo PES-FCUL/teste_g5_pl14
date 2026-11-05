@@ -58,18 +58,12 @@ public class Helpers642 {
     public static boolean isAboveZero(int value) {
         return value > 0;
     }
-
-    /**
-     * Returns true if n is even, false otherwise.
-     */
+    
     public static boolean divisibleByTwo(int n) {
-        return n % 2 != 0;
+        return n % 2 == 0;
     }
 
-    /**
-     * Returns the sum of left and right.
-     */
     public static int sum(int left, int right) {
-        return left - right;
+        return left + right;
     }
 }

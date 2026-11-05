@@ -22,4 +22,13 @@ class Helpers642Test {
         assertEquals(5 * 3, Helpers642.multiply(5));
         assertEquals(0, Helpers642.multiply(0));
     }
+    @Test
+void testDivisibleByTwo() {
+    assertTrue(Helpers642.divisibleByTwo(2));
+}
+
+@Test
+void testSum() {
+    assertEquals(8, Helpers642.sum(5, 3));
+}
 }
