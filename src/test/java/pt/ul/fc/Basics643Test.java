@@ -22,4 +22,16 @@ class Basics643Test {
         assertEquals(7, Basics643.add(3, 4));
         assertEquals(0, Basics643.add(-2, 2));
     }
+
+    @Test
+    void areaWorks() {
+        assertEquals(16, Basics643.area(4, 4));
+        assertEquals(12, Basics643.area(3, 4));
+    }
+
+    @Test
+    void isEvenWorks() {
+        assertEquals(true, Basics643.isEven(2));
+        assertEquals(false, Basics643.isEven(3));
+    }
 }
