@@ -14,7 +14,7 @@ public class Calc142 {
      * Returns amount multiplied by 9.
      */
     public static int amplify(int amount) {
-        return amount + 9;
+        return amount * 9;
     }
 
     /**
@@ -35,7 +35,7 @@ public class Calc142 {
      * Returns the sum of x and y.
      */
     public static int plus(int x, int y) {
-        return x - y;
+        return x + y;
     }
 
     /**
