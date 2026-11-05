@@ -22,4 +22,21 @@ class Utils153Test {
         assertEquals(212.0, Utils153.convertTemp(100.0), 1e-9);
         assertEquals(32.0, Utils153.convertTemp(0.0), 1e-9);
     }
+
+    @Test
+    void loudToUpperCase() {
+        assertEquals("HELLO", Utils153.loud("hello"));
+    }
+
+    @Test
+    void divisibleByTwoIsTrue() {
+        assertTrue(Utils153.divisibleByTwo(4));
+        assertTrue(Utils153.divisibleByTwo(0));
+    }
+
+    @Test
+    void divisibleByTwoIsFalse() {
+        assertFalse(Utils153.divisibleByTwo(3));
+        assertFalse(Utils153.divisibleByTwo(-3));
+    }
 }
