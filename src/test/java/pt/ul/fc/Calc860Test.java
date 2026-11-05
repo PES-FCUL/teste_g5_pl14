@@ -22,4 +22,14 @@ class Calc860Test {
         assertEquals(9, Calc860.maxOf(9, 2));
         assertEquals(9, Calc860.maxOf(2, 9));
     }
+
+    @Test
+    void rectAreaWorks(){
+    	assertEquals(4, Calc860.rectArea(2,2));
+    }
+
+    @Test
+        void averageWorks(){
+        	assertEquals(2, Calc860.average(2,2));
+    }
 }

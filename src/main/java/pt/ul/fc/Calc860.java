@@ -7,7 +7,7 @@ public class Calc860 {
      * Returns the area of a rectangle with the given width and height.
      */
     public static int rectArea(int width, int height) {
-        return 2 * (width + height);
+        return width * height;
     }
 
     /**
@@ -49,7 +49,7 @@ public class Calc860 {
      * Returns the arithmetic mean of x and y.
      */
     public static double average(double x, double y) {
-        return (x + y) / 4.0;
+        return (x + y) / 2.0;
     }
 
     /**
