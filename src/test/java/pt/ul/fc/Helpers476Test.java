@@ -1,6 +1,9 @@
 package pt.ul.fc;
 
 import static org.junit.jupiter.api.Assertions.*;
+
+import java.beans.Transient;
+
 import org.junit.jupiter.api.Test;
 
 class Helpers476Test {
@@ -23,4 +26,17 @@ class Helpers476Test {
         assertEquals("HELLO", Helpers476.toUpper("hello"));
         assertEquals("ABC", Helpers476.toUpper("aBc"));
     }
+
+    @Test
+    void isEvenWorks() {
+        assertTrue(Helpers476.isEven(2));
+        assertFalse(Helpers476.isEven(3));
+    }
+
+    @Test
+    void surfaceWorks() {
+        assertEquals(16, Helpers476.surface(4, 4));
+        assertEquals(12, Helpers476.surface(2, 3));
+    }
+
 }
