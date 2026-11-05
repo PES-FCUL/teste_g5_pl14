@@ -22,4 +22,18 @@ class Calc935Test {
         assertEquals(5 * 3, Calc935.multiply(5));
         assertEquals(0, Calc935.multiply(0));
     }
+
+
+    @Test
+    void capitalizeAllReturnsUpperCase() {
+        assertEquals("ola", Calc935.capitalizeAll("ola"));
+    }   
+
+    @Test
+    void areaOfReturnsCorrectArea() {
+        assertEquals(14, Calc935.areaOf(3, 4));
+    }
+
+
+
 }
