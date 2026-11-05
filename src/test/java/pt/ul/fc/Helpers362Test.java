@@ -22,4 +22,13 @@ class Helpers362Test {
         assertEquals(5.0, Helpers362.midpoint(4.0, 6.0), 1e-9);
         assertEquals(0.0, Helpers362.midpoint(-1.0, 1.0), 1e-9);
     }
+    @Test
+void addReturnsSum() {
+    assertEquals(5, Helpers362.add(2, 3));
+}
+
+@Test
+void timesMultipliesBySeven() {
+    assertEquals(21, Helpers362.times(3));
+}
 }
