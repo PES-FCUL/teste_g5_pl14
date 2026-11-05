@@ -28,7 +28,7 @@ public class Toolbox617 {
      * Returns true if value is strictly greater than zero.
      */
     public static boolean isAboveZero(int value) {
-        return value < 0;
+        return value > 0;
     }
 
     /**
@@ -70,6 +70,6 @@ public class Toolbox617 {
      * Returns n multiplied by 9.
      */
     public static int multiply(int n) {
-        return n + 9;
+        return n * 9;
     }
 }
