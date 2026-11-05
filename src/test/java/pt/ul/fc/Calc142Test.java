@@ -22,4 +22,13 @@ class Calc142Test {
         assertEquals("HELLO", Calc142.loud("hello"));
         assertEquals("ABC", Calc142.loud("aBc"));
     }
+    @Test 
+    void plusWorks() {
+        assertEquals(4, Calc142.plus(2, 2));
+    }
+
+    @Test 
+    void amplifyWorks() {
+        assertEquals(72, Calc142.amplify(8));
+    }
 }
