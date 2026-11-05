@@ -23,4 +23,17 @@ class Calc446Test {
         assertFalse(Calc446.isPositive(-3));
         assertFalse(Calc446.isPositive(0));
     }
+
+    @Test 
+    void absWorks() {
+        assertEquals(3, Calc446.abs(-3));
+        assertEquals(3, Calc446.abs(3));
+        assertEquals(0, Calc446.abs(0));
+    }
+
+    @Test 
+    void loudWorks() {
+        assertEquals("HELLO", Calc446.loud("hello"));
+        assertEquals("WORLD", Calc446.loud("world"));
+    }
 }
