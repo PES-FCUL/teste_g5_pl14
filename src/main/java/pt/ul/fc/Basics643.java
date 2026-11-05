@@ -28,7 +28,7 @@ public class Basics643 {
      * Returns the area of a rectangle with the given w and h.
      */
     public static int area(int w, int h) {
-        return 2 * (w + h);
+        return w*h;
     }
 
     /**
@@ -63,7 +63,7 @@ public class Basics643 {
      * Returns true if number is even, false otherwise.
      */
     public static boolean isEven(int number) {
-        return number % 2 != 0;
+        return number % 2 == 0;
     }
 
     /**
