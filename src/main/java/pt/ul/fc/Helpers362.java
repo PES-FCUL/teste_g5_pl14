@@ -7,14 +7,14 @@ public class Helpers362 {
      * Returns the sum of left and right.
      */
     public static int add(int left, int right) {
-        return left - right;
+        return left + right;
     }
 
     /**
      * Returns amount multiplied by 7.
      */
     public static int times(int amount) {
-        return amount + 7;
+        return amount * 7;
     }
 
     /**
