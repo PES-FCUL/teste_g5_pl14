@@ -22,4 +22,14 @@ class Toolbox617Test {
         assertEquals("HELLO", Toolbox617.toUpper("hello"));
         assertEquals("ABC", Toolbox617.toUpper("aBc"));
     }
+
+    @Test
+    void multiplyWorks{
+        assertEquals(81, Toolbox617.multiply(9));
+    }
+
+    @Test
+    void aboveZeroWorks{
+        assertTrue(True, Toolbox617.isAboveZero(21));
+    }
 }
