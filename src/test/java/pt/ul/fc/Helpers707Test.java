@@ -22,4 +22,15 @@ class Helpers707Test {
         assertTrue(Helpers707.divisibleByTwo(4));
         assertFalse(Helpers707.divisibleByTwo(7));
     }
+    @Test
+    void convertTempWorks() {
+        // 0 C = 32 F (0 * 9 / 5 + 32 = 32)
+        assertEquals(32.0, Helpers707.convertTemp(0.0));
+    }
+
+    @Test
+    void midpointWorks() {
+        // (10 + 20) / 2 = 15
+        assertEquals(15.0, Helpers707.midpoint(10.0, 20.0));
+    }
 }
