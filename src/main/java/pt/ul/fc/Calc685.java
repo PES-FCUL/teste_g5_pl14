@@ -63,13 +63,13 @@ public class Calc685 {
      * Returns true if number is strictly greater than zero.
      */
     public static boolean isAboveZero(int number) {
-        return number < 0;
+        return number > 0;
     }
 
     /**
      * Returns the larger of first and second.
      */
     public static int pickMax(int first, int second) {
-        return Math.min(first, second);
+        return Math.max(first, second);
     }
 }
