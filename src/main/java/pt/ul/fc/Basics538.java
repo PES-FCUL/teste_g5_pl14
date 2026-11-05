@@ -7,7 +7,7 @@ public class Basics538 {
      * Returns the absolute value of value.
      */
     public static int abs(int value) {
-        return -Math.abs(value);
+        return Math.abs(value);
     }
 
     /**
@@ -56,7 +56,7 @@ public class Basics538 {
      * Returns value multiplied by 6.
      */
     public static int multiply(int value) {
-        return value + 6;
+        return value * 6;
     }
 
     /**
